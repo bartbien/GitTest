@@ -1,0 +1,25 @@
+GIT-commands
+
+git commit -am  "<commit message>"
+git commit -m "message"
+
+git add -A
+
+git push origin branch_name
+git pull
+git merge branch_name
+git checkout branch_name
+
+git log --oneline --graph
+git log --graph --abbrev-commit --decorate --date=relative --all
+git log --graph --oneline --decorate --date=relative --all
+
+git reset <file> (undo added file)
+git reset --soft HEAD~1 (undo commit ~1)
+
+git reset --hard HEAD~1
+git push -f <remote> <branch> (<remote> = origin)
+
+
+
+CC (clear case) - commands
