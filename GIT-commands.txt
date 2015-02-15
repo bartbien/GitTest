@@ -20,6 +20,7 @@ git reset --soft HEAD~1 (undo commit ~1)
 git reset --hard HEAD~1
 git push -f <remote> <branch> (<remote> = origin)
 
+$ git commit -am "m10" --amend --author="new author <test@gmial.com>"
 
 
 CC (clear case) - commands
